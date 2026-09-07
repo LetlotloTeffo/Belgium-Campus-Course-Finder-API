@@ -8,6 +8,13 @@ The Node.js backend sends requests to Ollama, which processes the request using 
 
 This approach allows the application to experiment with AI inference locally without sending prompts to an external hosted LLM provider.
 
+OLLAMA SETUP
+
+Download Ollama from https://ollama.com/download, then run:
+ollama run llama3.2
+Ollama runs locally at http://localhost:11434, allowing the API to communicate with the Llama 3.2 model without relying on a hosted AI provider.
+
+
 My Contribution
 
 This project was completed as a group assignment, with each member responsible for different areas of the application. I, Letlotlo Teffo, was responsible for the complete backend and AI implementation. My responsibilities included:
